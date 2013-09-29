@@ -106,7 +106,7 @@ iota {
 ```
 
 To see what can be configured take a look at the README files for each included driver and at the reference default
-configuration at [reference.conf](blob/master/iota-server/src/main/resources/reference.conf)
+configuration at [reference.conf](iota-server/src/main/resources/reference.conf)
 
 The server provides by default 2 modules
 
