@@ -38,9 +38,8 @@ will be displayed. If you wish to provide another location for this configuratio
 java -Diota.configFile=/my/config/path -jar iota-server_2.10-0.1-SNAPSHOT-one-jar.jar
 ```
 
-A sample server configuration is provided as an example in the `sample` directory.
 
-Below is the configuration from the `sample` directory. The flexible Typesafe Config library is used for config files. Take a
+Below is a config file example. The flexible Typesafe Config library is used for config files. Take a
 look at their project page to see what is the acceptable syntax: https://github.com/typesafehub/config
 
 ```
@@ -107,7 +106,7 @@ iota {
 ```
 
 To see what can be configured take a look at the README files for each included driver and at the reference default
-configuration at [reference.conf](iota/blob/master/iota-server/src/main/resources/reference.conf)
+configuration at [reference.conf](blob/master/iota-server/src/main/resources/reference.conf)
 
 The server provides by default 2 modules
 
