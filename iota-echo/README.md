@@ -8,6 +8,6 @@ This driver has no configuration. Just include it in the modules list:
 ```
 {
     match.prefix = "/echo"
-    driver.class = "com.adobe.iota.module.echo.EchoDriverProvider",
+    driver.class = "org.madnl.iota.module.echo.EchoDriverProvider",
 }
 ```

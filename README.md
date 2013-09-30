@@ -88,7 +88,7 @@ iota {
                     # drivers can also be specified using a FQCN. The class must be on
                     # the server's classpath.
                     # This driver in particular, echoes the request's details in a HTML page
-                    driver.class = "com.adobe.iota.module.echo.EchoDriverProvider"
+                    driver.class = "org.madnl.iota.module.echo.EchoDriverProvider"
                 }
             ]
         }
@@ -97,7 +97,7 @@ iota {
             host = "mysite.com:9000"
             modules = [
                 {
-                    driver.class = "com.adobe.iota.module.echo.EchoDriverProvider"
+                    driver.class = "org.madnl.iota.module.echo.EchoDriverProvider"
                 }
             ]
         }

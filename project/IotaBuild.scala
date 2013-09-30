@@ -33,7 +33,7 @@ object IotaBuild extends Build {
       libraryDependencies ++= Seq(
         "ch.qos.logback" % "logback-classic" % "1.0.13"
       ),
-      mainClass in oneJar := Some("com.adobe.iota.IotaServer")
+      mainClass in oneJar := Some("org.madnl.iota.IotaServer")
   ).configs(Atmos)
 
   lazy val directoryDriver = Project(
@@ -51,7 +51,7 @@ object IotaBuild extends Build {
 
   def shared = Defaults.defaultSettings ++ Seq(
     scalaVersion := ScalaVersion,
-    organization := "com.adobe",
+    organization := "org.madnl",
     version := Version,
     scalacOptions += "-feature",
     libraryDependencies ++= commonDependencies,
