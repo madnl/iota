@@ -61,7 +61,6 @@ object IotaBuild extends Build {
 
   def tools =
     seq(org.scalastyle.sbt.ScalastylePlugin.Settings: _*) ++
-      seq(ScctPlugin.instrumentSettings: _*) ++
       com.github.retronym.SbtOneJar.oneJarSettings
 
   def commonDependencies = Seq(
